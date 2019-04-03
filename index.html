@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Katarzyna Otto">
+    <title>Google Books APIs</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Books Searching</h1>
+        <input type="text" name="bookTitle" id="titleInput" onchange="getTitle()" placeholder="Insert book title"/>
+        <br/>
+        <div id="place"></div>
+    </div>
+</body>
+<script src="api.js"></script>
+</html>
